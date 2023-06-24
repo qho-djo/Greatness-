@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-24T17:43:06.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="nAJVNjQek8S1p_IdasOY" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-24T17:46:34.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="lKm4glCbQ7mguL3-6bGc" version="21.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2394" dy="1317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,115 +6,121 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="MR2TuQrS4FQkN64LWe5N-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="403" y="260" as="targetPoint" />
+            <mxPoint x="414" y="421" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="453" y="180" width="50" height="80" as="geometry" />
+          <mxGeometry x="464" y="341" width="50" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-8" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="303" y="230" width="100" height="60" as="geometry" />
+          <mxGeometry x="314" y="391" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-9" value="Input: int n" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="303" y="350" width="100" height="60" as="geometry" />
+          <mxGeometry x="314" y="511" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.481;exitY=1.048;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-8" target="MR2TuQrS4FQkN64LWe5N-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="413" y="370" as="sourcePoint" />
-            <mxPoint x="463" y="320" as="targetPoint" />
+            <mxPoint x="424" y="531" as="sourcePoint" />
+            <mxPoint x="474" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-11" value="Initialize int nCopy, equal to n" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="293" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="304" y="631" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-12" value="Is nCopy &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="313" y="610" width="80" height="80" as="geometry" />
+          <mxGeometry x="324" y="771" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-13" value="Decrease nCopy by 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="293" y="870" width="120" height="60" as="geometry" />
+          <mxGeometry x="304" y="1031" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-14" value="Print &#39;_&#39;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="293" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="304" y="911" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-15" value="Print \n" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="456" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="467" y="781" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-16" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="662" y="620" width="100" height="60" as="geometry" />
+          <mxGeometry x="673" y="781" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.029;exitY=0.483;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-15" target="MR2TuQrS4FQkN64LWe5N-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432" y="780" as="sourcePoint" />
-            <mxPoint x="482" y="730" as="targetPoint" />
+            <mxPoint x="443" y="941" as="sourcePoint" />
+            <mxPoint x="493" y="891" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-12" target="MR2TuQrS4FQkN64LWe5N-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432" y="780" as="sourcePoint" />
-            <mxPoint x="482" y="730" as="targetPoint" />
+            <mxPoint x="443" y="941" as="sourcePoint" />
+            <mxPoint x="493" y="891" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.501;entryY=-0.035;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-12" target="MR2TuQrS4FQkN64LWe5N-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432" y="780" as="sourcePoint" />
-            <mxPoint x="482" y="730" as="targetPoint" />
+            <mxPoint x="443" y="941" as="sourcePoint" />
+            <mxPoint x="493" y="891" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-14" target="MR2TuQrS4FQkN64LWe5N-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432" y="780" as="sourcePoint" />
-            <mxPoint x="482" y="730" as="targetPoint" />
+            <mxPoint x="443" y="941" as="sourcePoint" />
+            <mxPoint x="493" y="891" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-21" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="355.28" y="941.5" as="sourcePoint" />
-            <mxPoint x="312" y="650" as="targetPoint" />
+            <mxPoint x="366.28" y="1102.5" as="sourcePoint" />
+            <mxPoint x="323" y="811" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="352" y="960" />
-              <mxPoint x="302" y="960" />
-              <mxPoint x="242" y="960" />
-              <mxPoint x="242" y="820" />
-              <mxPoint x="242" y="650" />
+              <mxPoint x="363" y="1121" />
+              <mxPoint x="313" y="1121" />
+              <mxPoint x="253" y="1121" />
+              <mxPoint x="253" y="981" />
+              <mxPoint x="253" y="811" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.513;exitY=1.034;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-11" target="MR2TuQrS4FQkN64LWe5N-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432" y="500" as="sourcePoint" />
-            <mxPoint x="482" y="450" as="targetPoint" />
+            <mxPoint x="443" y="661" as="sourcePoint" />
+            <mxPoint x="493" y="611" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-9" target="MR2TuQrS4FQkN64LWe5N-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432" y="500" as="sourcePoint" />
-            <mxPoint x="482" y="450" as="targetPoint" />
+            <mxPoint x="443" y="661" as="sourcePoint" />
+            <mxPoint x="493" y="611" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="122" y="550" width="40" height="100" as="geometry" />
+          <mxGeometry x="133" y="711" width="40" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MR2TuQrS4FQkN64LWe5N-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.244;entryY=0.227;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MR2TuQrS4FQkN64LWe5N-24" target="MR2TuQrS4FQkN64LWe5N-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="172" y="600" as="sourcePoint" />
-            <mxPoint x="222" y="550" as="targetPoint" />
+            <mxPoint x="183" y="761" as="sourcePoint" />
+            <mxPoint x="233" y="711" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="202" y="600" />
-              <mxPoint x="232" y="630" />
+              <mxPoint x="213" y="761" />
+              <mxPoint x="243" y="791" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sqRo1149xMeWvwWAzkwX-0" value="While loop condition" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="52" y="580" width="80" height="40" as="geometry" />
+          <mxGeometry x="63" y="741" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sqRo1149xMeWvwWAzkwX-1" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="396" y="618" width="50" height="30" as="geometry" />
+          <mxGeometry x="407" y="779" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sqRo1149xMeWvwWAzkwX-2" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="346" y="698" width="50" height="30" as="geometry" />
+          <mxGeometry x="357" y="859" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sqRo1149xMeWvwWAzkwX-3" value="Function void print_line (int n);" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="482" y="205" width="180" height="30" as="geometry" />
+          <mxGeometry x="493" y="366" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sqRo1149xMeWvwWAzkwX-4" value="&lt;ol&gt;&lt;li&gt;Set a variable equal &lt;code&gt;n&lt;/code&gt; (&lt;code&gt;int nCopy&lt;/code&gt;)&lt;/li&gt;&lt;li&gt;Set up a while loop (condition: &lt;code&gt;nCopy&lt;/code&gt; is greater than 0)&lt;/li&gt;&lt;li&gt;Print &lt;code&gt;-&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Decrease &lt;code&gt;nCopy&lt;/code&gt; by 1&lt;/li&gt;&lt;li&gt;Print &lt;code&gt;\n&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="41" y="240" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sqRo1149xMeWvwWAzkwX-5" value="&lt;p&gt;Let’s think about Foundation task, and include a flowchart example for it: &lt;/p&gt;&lt;p&gt;The task instructions are as follows: &lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Write a function that draws a straight line in the terminal.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Prototype: void print_line(int n);&lt;/li&gt;&lt;li&gt;You can only use &lt;code&gt;_putchar&lt;/code&gt; function to print&lt;/li&gt;&lt;li&gt;Where &lt;code&gt;n&lt;/code&gt; is the number of times the character &lt;code&gt;_&lt;/code&gt; should be printed&lt;/li&gt;&lt;li&gt;The line should end with a &lt;code&gt;\n&lt;/code&gt;&lt;/li&gt;&lt;li&gt;If &lt;code&gt;n&lt;/code&gt; is 0 or less, the function should only print &lt;code&gt;\n&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="353" y="30" width="460" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
